@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeCraft - Learn Coding the Easy Way</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>💻 CodeCraft</h1>
+    <p>Learn Coding the Easy Way</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#posts">Posts</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="posts" class="container">
+    <h2>Latest Posts</h2>
+
+        <div class="post">
+      <h3>5 Tips to Learn HTML Faster and What is HTML?</h3>
+      <p class="date">October 31, 2025</p>
+      <p>HTML is the backbone of web development. Here are 5 tips to master it quickly...</p>
+      <button onclick="readMore('post1')">Read More</button>
+      <div id="post1" class="more-text">
+        <p>Tip 1: Practice daily. Tip 2: Build a personal website. Tip 3: Learn by doing. Tip 4: Study others’ code. Tip 5: Never stop exploring!<br>
+        <br> What is HTML?<br>
+             HTML is called a markup language because it is used to structure and
+             present content on the web, not to perform logic or computations like<br>
+             programming languages (e.g., JavaScript, Python, C#).<br>
+             Unlike programming languages, HTML:<br> 
+          • Lacks logic: No variables, loops, or conditional statements.<br>
+          • Defines structure: Uses tags to format and organize content rather
+            than executing commands. <br>
+          • Depends on other technologies: Needs CSS for styling and JavaScript
+           for interactivity
+        </p>
+      </div>
+    </div>
+
+    <div class="post">
+      <h3>How to Start Learning JavaScript</h3>
+      <p class="date">October 30, 2025</p>
+      <p>JavaScript is one of the most popular programming languages. In this post, we’ll learn how to start coding with JS...</p>
+      <button onclick="readMore('post2')">Read More</button>
+      <div id="post2" class="more-text">
+        <p>
+             You can start learning JavaScript by practicing small code snippets daily. Try building simple things like calculators or to-do lists!
+            And you should know What is a Variable?<br>
+         • Variables act as containers that store data values.<br>
+         • They allow you to save information, reassign new values, and reuse code<br>
+            more efficiently.<br>
+            Declaration Methods:<br>
+         • var: Older declaration syntax with function scope.<br>
+         • let: Modern variable declaration with block scope.<br>
+         • const: Declares constants; once assigned, cannot be re-assigned.<br>
+            Tip: Use let and const in new projects to reduce common errors associated<br>
+            with variable hoisting and scope issues.<br>
+        </p>
+      </div>
+    </div>
+
+       <div class="post">
+      <h3>What is CSS ?</h3>
+      <p class="date">October 30, 2025</p>
+      <p>efinition: Cascading Style Sheets (CSS) is a stylesheet language used
+            for describing the presentation of a document written in HTML...</p>
+      <button onclick="readMore('post3')">Read More</button>
+      <div id="post3" class="more-text">
+        <p> Definition: Cascading Style Sheets (CSS) is a stylesheet language used <br>
+            for describing the presentation of a document written in HTML.  <br>
+            • Purpose: Separates content from presentation, allowing <br>
+              consistent design and easier maintenance.<br>
+            • Benefits:<br>
+            • Enhances web design and user experience<br>
+            • Enables responsive design and dynamic effects<br>
+            • Simplifies changes across multiple web pages</p>
+      </div>
+    </div>  
+    <div class="post">
+      <h3>What is the meaning of Bootsrap?</h3>
+      <p class="date">October 30, 2025</p>
+      <p>Bootstrap is a popular front-end framework that provides
+             prebuilt CSS and JavaScript components to speed up web
+             development...</p>
+      <button onclick="readMore('post4')">Read More</button>
+      <div id="post4" class="more-text">
+        <p>
+          • Definition: Bootstrap is a popular front-end framework that provides<br>
+             prebuilt CSS and JavaScript components to speed up web<br>
+             development.<br>
+          • Key Features:<br>
+          • Responsive Design: Ensures layouts adapt to multiple device sizes.<br>
+          • Component Library: Includes buttons, forms, navigation bars, modals, and<br>
+            more.<br>
+          • Customizable: Easily override styles to match your branding.<br>
+          • Benefits: Reduces development time by offering consistent, tested<br>
+            components and a flexible layout system.</p>
+      </div>
+    </div>  
+     <div class="post">
+      <h3>What is React and how to Start Learning React?</h3>
+      <p class="date">October 30, 2025</p>
+      <p>React is a JavaScript library developed by Facebook for building dynamic and interactive user interfaces.
+           • Focuses on creating reusable UI components and efficiently updating the DOM through its Virtual DOM...</p>
+      <button onclick="readMore('post5')">Read More</button>
+      <div id="post5" class="more-text">
+        <p>A JavaScript library developed by Facebook for building dynamic and interactive user interfaces.<br>
+           • Focuses on creating reusable UI components and efficiently updating the DOM through its Virtual DOM.<br>
+             Advantages of Using React:<br>
+           • Declarative: Write predictable UI components by describing what you want to see on the screen.<br>
+           • Component-Based: Build encapsulated components that manage their own state, then compose them to<br>
+             make complex interfaces.<br>
+           • Virtual DOM: Enhances performance by minimizing direct DOM manipulation.<br>
+           • Reusable Code: Components can be reused across multiple parts of the application, which speeds up<br>
+             development.<br>
+           • Large Ecosystem: Supported by an extensive community, robust tooling, additional libraries (like React<br>
+             Router, Redux, etc.), and comprehensive documentation.<br>
+           • Cross-Platform Development: With React Native, you can build native mobile applications using the same<br>
+             concepts.</p>
+      </div>
+    </div>
+      </section>
+
+
+
+ 
+
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>Hi! I’m Farzam, a web developer. I created CodeCraft to help beginners learn coding easily through simple examples and tutorials.</p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:farzamsafizada@gmail.com">farzamsafizada@gmail.com</a></p>
+    <p>Phone NO: 0799898976 </p>
+  </section>
+
+  <footer>
+    <p>© 2025 CodeCraft Blog | Made By Farzam </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
